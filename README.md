@@ -4,7 +4,7 @@
 Giovanni Scano 
 Riccardo Atzori 
 
-#Descrizione
+# Descrizione
 Simulazione didattica ispirata al classico gioco arcade Frogger, sviluppata per il corso di Sistemi Operativi.
 Il progetto implementa due versioni distinte per lo studio di thread e processi.
 
@@ -83,4 +83,5 @@ Ad ogni fine partita, in caso di vittoria, il punteggio finale sarà 50 moltipli
 - UTILIZZO ESCLUSIVAMENTE EDUCATIVO
 - Questo progetto è rilasciato sotto Licenza per Soli Scopi Educativi.
 - Tutti i file audio ora presenti sono liberi da copyright e presi da Pixabay.
+
 
