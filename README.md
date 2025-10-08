@@ -1,2 +1,65 @@
-# frogger-simulazione-thread-processi
-“Simulazione del gioco Frogger con thread e processi, progetto sistemi operativi”.
+
+Giovanni Scano 
+Riccardo Atzori 
+
+Makefile:
+
+In entrambe le cartelle sono presenti i Makefile con l'eseguibile già compilato. Se si volesse comunque procedere con il comando make, va fatto nella directory in cui è presente il Makefile.
+
+
+Avviso Importante:
+
+Quando si esegue il file, ovvero l'eseguibile di gioco, assicurarsi che il terminale sia a tutto schermo; in caso di finestra minimizzata, il gioco presenterà grossi problemi grafici e non funzionerà in modo corretto.
+
+
+Funzionalità Bonus:
+
+Menu di Gioco
+Menu inizio/fine partita.
+Controlli di Gioco
+Pausa: Premere "q" o "Q"
+Ripresa: Premere "p" o "P"
+
+Modalità di Difficoltà
+Il gioco offre tre livelli di difficoltà crescente:
+-Easy
+-Medium
+-Hard
+Ogni modalità presenta diverse impostazioni per:
+
+Numero di vite
+-Intervallo di spawn dei proiettili
+-Velocità dei proiettili
+-Velocità del flusso dei coccodrilli
+-Suoni e Musiche
+
+Per la funzionalità audio, raccomandiamo di installare i seguenti pacchetti di sistema tramite questi comandi:
+-sudo apt update
+-sudo apt install alsa-utils
+-sudo apt install mpg123
+
+L'audio del gioco include:
+-Musica di sottofondo (si interrompe quando il gioco è in pausa)
+-Effetti sonori per:
+  °Entrata della rana in tana
+  °Caduta della rana nel fiume
+  °Rana colpita da un proiettile
+
+
+Istruzioni di Gioco:
+
+Di default, nel menu di inizializzazione, premendo "NUOVA PARTITA" la partita inizierà automaticamente in modalità EASY.
+Si naviga nei menu con le frecce direzionali e si conferma con ENTER.
+La rana può sparare solo dall'inizio del marciapiede fino alla fine del fiume. Una volta che la rana entra nella "safe zone", non potrà più sparare.
+
+Sistema di Punteggio:
+
+-Ogni entrata in una tana mai visitata attribuirà 20 punti più il tempo rimanente della manche.
+-Vengono detratti 10 punti ogni volta che:
+  °La rana cade in acqua
+  °La rana viene colpita da un proiettile
+  °Scade il tempo
+  °La rana entra in una tana già visitata
+  °La rana entra tra le tane
+
+Ad ogni fine partita, in caso di vittoria, il punteggio finale sarà 50 moltiplicato per il numero di vite rimanenti.
