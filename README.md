@@ -1,6 +1,22 @@
+# Frog Crossing Simulation - Progetto Sistemi Operativi
 
+## Autori
 Giovanni Scano 
 Riccardo Atzori 
+
+## Descrizione
+Simulazione didattica ispirata al classico gioco arcade Frogger, sviluppata per il corso di Sistemi Operativi.  
+Il progetto implementa due versioni distinte per lo studio di thread e processi.
+
+**Nota sul Copyright**: Questo progetto è una simulazione didattica sviluppata per scopi educativi.  
+Il gioco è ispirato al classico Frogger © Konami, ma implementato con fini puramente educativi e di studio dei sistemi operativi.
+
+### File Sonori
+I suoni utilizzati in questo progetto sono stati presi da [classicgaming.cc/classics/frogger/sounds](https://classicgaming.cc/classics/frogger/sounds) e rappresentano i suoni originali del gioco Frogger © Konami.
+
+**Nota legale**: Questi file audio sono utilizzati esclusivamente per scopi educativi e didattici in questo progetto universitario non commerciale.
+
+
 
 Makefile:
 
@@ -63,3 +79,16 @@ Sistema di Punteggio:
   °La rana entra tra le tane
 
 Ad ogni fine partita, in caso di vittoria, il punteggio finale sarà 50 moltiplicato per il numero di vite rimanenti.
+
+
+## ⚠️ Licenza e Avviso sul Copyright
+
+**UTILIZZO ESCLUSIVAMENTE EDUCATIVO**
+
+Questo progetto è rilasciato sotto Licenza per Soli Scopi Educativi.
+Sebbene abbiamo implementato una versione tecnica per fini accademici:
+
+- Nome Frogger, concept e meccaniche di gioco sono © **Konami**
+- File audio sono © **Konami** e utilizzati in base al fair use educativo
+- **È vietato l'uso commerciale, la distribuzione o la modifica**
+- Questo progetto è dedicato allo **studio dei sistemi operativi** in ambito accademico
